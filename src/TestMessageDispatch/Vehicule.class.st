@@ -5,6 +5,11 @@ Class {
 	#package : 'TestMessageDispatch'
 }
 
+{ #category : 'accessing - token' }
+Vehicule >> bar [
+	self type
+]
+
 { #category : 'accessing' }
 Vehicule >> foo [
 	^50
